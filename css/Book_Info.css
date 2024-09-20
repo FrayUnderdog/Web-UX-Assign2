@@ -1,0 +1,72 @@
+.header {
+    height: 30px;
+    background-color: #333;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.pannel {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.book {
+    display: flex;
+    padding: 12px 11px 80px;
+}
+
+.book_basic {
+    
+}
+
+.book_basic .left {
+    padding: 15px 10px 15px 10px;
+    margin-right: 25px;
+}
+
+.book_basic .right {
+    padding: 15px 10px 15px 10px;
+    margin-left: 25px;
+}
+
+
+.reserve {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 25px;
+    height: 80px;
+    background-color: pink;
+}
+
+.copy {
+    margin: 10px 10px 10px 10px;
+}
+
+.navGroup {
+    margin: 0 auto;
+}
+nav {
+    width: 330px;
+    height: 60px;
+    background-color:cornflowerblue;
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+nav:hover {
+    background-color: chartreuse;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+}

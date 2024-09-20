@@ -1,0 +1,54 @@
+.header {
+    height: 30px;
+    background-color: #333;
+}
+
+.navGroup {
+    margin: 0 auto;
+}
+
+nav {
+    width: 330px;
+    height: 60px;
+    background-color:cornflowerblue;
+    display: inline-block;
+    text-decoration: none;
+    color: brown;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+}
+
+nav:hover {
+    background-color: chartreuse;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 50px 35px 50px 35px;
+}
+
+.user .left {
+    margin-left: 240px;
+    margin-right: 35px;
+}
+
+.user .email {
+    margin-left: 20px;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 15px;
+    height: 80px;
+    background-color: pink;
+}
+
+.footer {
+    text-align: center;
+    margin: 0 auto;
+}
